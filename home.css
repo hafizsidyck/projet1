@@ -12,6 +12,8 @@ header {
     flex-direction: column;
     gap: 15rem;
     position: relative;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.337);
 }
 
 header .section1 {

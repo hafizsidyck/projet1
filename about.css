@@ -1,0 +1,111 @@
+body{
+    padding: auto;
+    margin: auto;
+    }
+ header {
+        background-image: url(./image/images/montagne-page3.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 15rem;
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.219);
+    }
+ header .section1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        font-size: large;
+    }
+ header .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        font-size: large;
+    }
+ nav {
+        display: flex;
+        gap: 2rem;
+    }
+ ul {
+        display: flex;
+        gap: 2rem;
+        list-style-type: none;
+    }
+    button{
+    border: none;
+    font-size: large;
+    border-radius: 30px;
+    color: white;
+    background-color: #fb2056;
+    }
+ main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+  
+    .ligne{
+        color: red;
+    }
+    .section2about{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 50px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+    .texte{
+    padding-left: 150px;
+    padding-right:150px;
+    }
+    .image{
+        padding-left: 150px;
+    padding-right:150px;
+    }
+    .section3about{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        margin: 50px;  
+    }
+    .t1{
+        padding-left: 150px;
+    padding-right:150px; 
+    }
+    .t2{
+        padding-left: 150px;
+        padding-right:150px;
+    }
+    footer {
+        padding: 80px;
+        display: block;
+        gap: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    
+    }
+    .class1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .class2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
